@@ -1,0 +1,306 @@
+header {
+    background-color: #18a7a7;
+    height: 280px;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.g1 {
+    display: flex;
+    flex-direction: column;
+}
+.g2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.g3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 15px;
+}
+.g4 {
+    background-color: white;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.g5 {
+    color: #18a7a7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    opacity: 0;
+    transition: 1s;
+    text-decoration: none;
+}
+.g6 {
+    display: flex;
+    width: 40%;
+}
+.g4:hover .g5 {
+    opacity: 1;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.g7 {
+    position: absolute;
+    right: 0;
+    height: 275px;
+    width: 375px;
+}
+.g16 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18a7a7;
+    margin-left: 30px;
+    font-size: 45px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18a7a7;
+    margin-left: 30px;
+    font-size: 20px;
+}
+b {
+    text-decoration: underline;
+}
+.g11 {
+    display: flex;
+    margin-top: 30px;
+}
+.g10 {
+    width: 1200px;
+}
+.g9 {
+    border-radius: 100%;
+    background-color: #18a7a7;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    opacity: 0;
+    position: absolute;
+    transition: 1s;
+}
+.g8:hover + .g9 {
+     opacity: 1;
+     transition: 1s;
+}
+.g8 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    right: 785px;
+    top: 930px;
+    opacity: 0;
+}
+.g23 {
+    position: absolute;
+    width: 125px;
+    height: 30px;
+    right: 1370px;
+    top: 1155px;
+    opacity: 0;
+}
+.g23:hover + .g9 {
+    opacity: 1;
+    transition: 1s;
+}
+.g25 {
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    right: 1710px;
+    top: 1335px;
+    opacity: 0;
+}
+.g25:hover + .g9 {
+    opacity: 1;
+    transition: 1s;
+}
+.g12 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.g13 {
+    border-radius: 100%;
+    background-color: #18a7a7;
+    background-image: url(c8466aaf6d2b2d04c780153ae998efe4.jpg);
+    border-image-repeat: none;
+    height: 300px; 
+    width: 300px;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    /*transition: 1s;*/
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.g14 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18a7a7;
+    font-size: 40px;
+
+}
+#sectionOfAttractions {
+    display: block;
+    text-align: center;
+}
+#sightseeing {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#facts {
+    margin-top: 30px;
+}
+.g15 {
+    display: block;
+}
+.g17 {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.g18 {
+    border-radius: 100%;
+    background-color: #18a7a7;
+    background-image: url(19-Pamyatnik-vodoprovodu.jpg);
+    border-image-repeat: none;
+    height: 300px; 
+    width: 300px;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: inherit;
+    background-size: 375px 300px;
+    position: absolute;
+    margin-top: 20px;
+}
+.changeColor {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 140px;
+    color: white;
+    font-size: 20px;
+    background-color: #18a7a7;
+    height: 290px;
+    width: 1000px;
+    padding-left: 190px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.g20 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18a7a7;
+    margin-left: 170px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.g21 {
+    background-color: #18a7a7;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    left: 1790px;
+    top: 900px;
+    background-size: 90px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    z-index: 1000;
+}
+footer {
+    background-color: #18a7a7;
+    height: 175px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.g22 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.g28 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.g29 {
+    position: absolute;
+    right: 800px;
+    top: 180px;
+}
+.themeBtn {
+    border-radius: 100%;
+    border: solid 3px #fff;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.dictionaryTextColor {
+    color: white;
+    padding-top: 45px;
+    padding-right: 21px;
+}
+.PhotoSwitchBtn {
+    border: none;
+    background: #fff;
+    font-size: 50px;
+    color: #d6c4c4;
+    height: 100px;
+    margin-top: 125px;
+}
+.firstMiniCircle {
+    border-radius: 100%;
+    height: 17px;
+    width: 17px;
+    position: fixed;
+    left: 1800px;
+    top: 913px;
+    transition: 0.3s;
+}
+.secondMiniCircle {
+    border-radius: 100%;
+    height: 13px;
+    width: 13px;
+    position: fixed;
+    left: 1820px;
+    top: 920px;
+    transition: 0.3s;
+}
+.thirdMiniCircle {
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
+    position: fixed;
+    left: 1810px;
+    top: 935px;
+    transition: 0.3s;
+}
